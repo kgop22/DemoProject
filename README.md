@@ -26,13 +26,13 @@ Steps to implement this Project:
 2. Import the downloaded maven project into STS.
 3. Create DB and table using 'userdb_userinfo' SQL file into mySQL
 4. Start the npm and tc server.
-5. Run the project using following endpoints.. 
+5. Run the project using following endpoints..                               
 i> For functionality 1 and 2 use : 
-      http://localhost:4200/userRegistration (I am using default port 4200 for Angular) 
-ii> For functionality 3 use: (I am using default port 8080 for Restful Services) 
+      http://localhost:4200/userRegistration (I am using default port 4200 for Angular)                   
+ii> For functionality 3 use: (I am using default port 8080 for Restful Services)                               
       Addition: http://localhost:8080/signupProject/calculator/addition                        
       Substraction: http://localhost:8080/signupProject/calculator/substraction                 
       Multiplication: http://localhost:8080/signupProject/calculator/multiplication          
       Division: http://localhost:8080/signupProject/calculator/division
 
-Additionally, I have uploaded snapshort of end result of few functionality(.jpg).
+Additionally, I have uploaded snapshot of end result of few functionality(.jpg).
