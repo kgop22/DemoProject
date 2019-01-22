@@ -1,0 +1,29 @@
+<!--The content below is only a placeholder and can be replaced.-->
+
+  <h1 id="mainHeader">
+    Welcome to {{ title }}!
+  </h1>
+ 
+ <br>
+
+ <div>
+    <h3 id ="mainText">To know Hello in different languages click the below buttons..</h3></div>
+    <br>
+
+ <h1 id ="mainDisp">
+      {{ responsestr }}
+ </h1>
+
+ 
+ <br>
+ <br>
+ <div style="text-align:center">
+<button class="button" (click)="onSubmitEng()">English</button> 
+<button class="button" (click) = "onSubmitSpa()">Spanish</button> 
+<button class="button" (click) = "onSubmitHin()">Hindi</button> <br> <br>
+<button class="button" (click) = "onSubmitGetUserList()">UserList</button> 
+
+<div>
+  <h3 id ="mainText">To display all user's name click on 'UserList' buttons..</h3></div>
+  <br>
+</div>
